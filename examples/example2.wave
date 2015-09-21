@@ -1,0 +1,16 @@
+<html>
+<body>
+  {{>Template.First}}
+  {{>Template.Welcome}}
+  {{=$sd.length}}
+<body>
+</html>
+<template>
+<First>
+{{=welcome}}
+</First>
+<Welcome>
+{{>Template.First}}
+</Welcome>
+</template>
+

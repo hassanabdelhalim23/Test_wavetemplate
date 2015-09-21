@@ -1,0 +1,17 @@
+<html>
+<body>
+  {{>Template.First1}}
+  {{=$sd.length}}
+<body>
+</html>
+<template>
+<First1>
+{{for(var i=0;i<$sd.length;i++){ }}
+<ul>
+<li><h1>{{=$sd[i]}}</h1></li>
+{{ } }}
+</ul>
+<h1>{{=$id}}</h1>
+</First1>
+</template>
+
